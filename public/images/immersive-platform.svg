@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-label="Abstract futuristic immersive platform scene">
+ <defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090d24"/><stop offset=".48" stop-color="#241751"/><stop offset="1" stop-color="#071a30"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#7b57ff" stop-opacity=".55"/><stop offset=".4" stop-color="#5532e4" stop-opacity=".18"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#251f63" stop-opacity=".7"/><stop offset="1" stop-color="#090e21"/></linearGradient>
+  <linearGradient id="neon" x2="1" y2="0"><stop stop-color="#00ddf4"/><stop offset=".5" stop-color="#a85bff"/><stop offset="1" stop-color="#e34de8"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="16"/></filter>
+ </defs>
+ <rect width="960" height="520" fill="url(#bg)"/><ellipse cx="495" cy="260" rx="380" ry="300" fill="url(#halo)"/>
+ <path d="M0 355L480 240 960 355V520H0Z" fill="url(#floor)"/>
+ <g stroke="#a67bff" stroke-opacity=".22" fill="none"><path d="M0 390H960M0 425H960M0 465H960M0 505H960"/>
+ <path d="M480 240L0 520M480 240L160 520M480 240L300 520M480 240L400 520M480 240L560 520M480 240L660 520M480 240L800 520M480 240L960 520"/></g>
+ <ellipse cx="490" cy="340" rx="250" ry="18" fill="#a245ff" opacity=".55" filter="url(#blur)"/>
+ <g fill="none" stroke-width="10">
+ <path d="M238 355V240A242 242 0 01480 -2A242 242 0 01722 240V355" stroke="#8b47ff" opacity=".3" stroke-width="30"/>
+ <path d="M258 355V240A222 222 0 01480 18A222 222 0 01702 240V355" stroke="url(#neon)" opacity=".85"/>
+ <path d="M292 350V248A188 188 0 01480 60A188 188 0 01668 248V350" stroke="#89b2ff" opacity=".32" stroke-width="3"/>
+ </g>
+ <path d="M0 260L170 215 245 260M960 258L775 210 712 262" fill="none" stroke="#ba65ff" stroke-width="4" opacity=".65"/>
+ <g fill="#13152c" stroke="#5b42c4" stroke-width="2"><rect x="44" y="184" width="133" height="140" rx="6"/><rect x="783" y="166" width="133" height="160" rx="6"/></g>
+ <g stroke="#26dfff" stroke-opacity=".4"><path d="M60 218H164M60 240H136M60 260H158M800 199H900M800 220H870M800 242H890"/></g>
+ <path d="M460 350L454 286C454 278 459 272 466 270L469 245C457 235 464 213 480 212C496 213 503 235 491 245L495 271C502 273 506 279 506 286L500 350Z" fill="#0a0e1d" stroke="#7453b9" stroke-width="2"/>
+ <path d="M463 350L452 423M496 350L508 423" stroke="#090c1b" stroke-width="17"/><path d="M447 285L425 341M510 285L531 341" stroke="#0b0e20" stroke-width="14"/>
+ <g opacity=".7"><circle cx="170" cy="125" r="3" fill="#16e0ed"/><circle cx="790" cy="84" r="3" fill="#df60ff"/><circle cx="745" cy="335" r="3" fill="#16e0ed"/><circle cx="192" cy="351" r="2" fill="#df60ff"/></g>
+</svg>

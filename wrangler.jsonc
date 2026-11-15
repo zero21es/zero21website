@@ -1,0 +1,6 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zero21-website",
+  "compatibility_date": "2026-11-14",
+  "assets": { "directory": "./dist" }
+}
